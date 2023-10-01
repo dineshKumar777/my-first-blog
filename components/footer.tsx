@@ -33,7 +33,7 @@ const Footer = () => {
       <div className="text-center">
         <p>Built using Next.js, Tailwind CSS and Contentlayer.</p>
         <p className="text-sm mt-2">
-          © {new Date().getFullYear()}, Saurabh Charde. All rights reserved.
+          © {new Date().getFullYear()}, Dinesh Kumar. All rights reserved.
         </p>
       </div>
     </footer>
