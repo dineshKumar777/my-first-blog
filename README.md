@@ -1,66 +1,17 @@
 <div align="center">
   <img src="./public/images/announcement-banner.png">
-  <h1>Next.js Tailwind Contentlayer Blog </h1>
-  <a href="https://github.com/schardev/nextjs-contentlayer-blog/actions/workflows/ci.yml">
-    <img src="https://github.com/schardev/nextjs-contentlayer-blog/actions/workflows/ci.yml/badge.svg">
-  </a>
+  <h1>My Dev Blog </h1>
 </div>
-<p align="center">A simple and minimalistic blog template built using the latest Next.js app router and Contentlayer.</p>
+<p align="center">My Dev blog powered by Nextjs, Tailwind, ContentLayer</p>
 <br/>
 
 ## Motive
 
-I created this blog template as a learning experience (and to get my hands dirty) with [Next.js' new shiny app router](https://nextjs.org/docs/app). I also wanted few specific reusable functionalities for my personal portfolio blog that I can also easily copy-paste to my other projects. Developing a generic template seemed like a better way of achieving that.
+I always wanted a DEV blog where I can post my thoughts and workflows. Decided to build my blog and tried with various tech stacks and finally landed upon current framework.
 
-## Features
+## Template Used
 
-- **Mobile-First Approach**: Built with a mobile-first mindset, the template ensures your blog looks fantastic on any device.
-
-- **Highly Customizable**: Flexibility is key! The template offers extensive customizability, allowing you to tailor it to your unique style and preferences.
-
-- **CSS Variables for Easier Customizations**: Making changes to your blog's appearance becomes a breeze with the help of CSS variables.
-
-- **Keyboard Accessibility**: Ensuring an inclusive experience, the template is keyboard accessible.
-
-- **Light and Dark Mode Support**: Embrace the latest design trends by offering both light and dark mode options.
-
-- **Full Type-Safety**: Rest assured that your codebase will be free of type-related headaches.
-
-- **JSX in Markdown Support**: Unleash the power of JSX right within your Markdown content.
-
-- **Near Perfect Lighthouse Scores**: Your blog will be optimized for blazing-fast performance and excellent user experience.
-
-- **VS Code-like Code Highlighting**: Code snippets are displayed beautifully with line numbers, line highlighting, words highlighting, and inline code highlighting, powered by [Rehype Pretty Code](https://rehype-pretty-code.netlify.app/).
-
-- **Github-Flavored Markdown Support**: Write your content in familiar Markdown, including GitHub-flavored goodness.
-
-- **Separate Pages for Tags**: Easily categorize your posts with separate tag pages.
-
-- **Out-of-the-Box SEO Support**: Ensure your blog ranks well on search engines with built-in SEO features.
-
-- **Dynamic Open-Graph (OG) Image Generation**: Each post will have a sleek OG image automatically generated.
-
-- **Automatic Image Optimizations**: The template takes care of image optimizations using `next/image` for optimal performance.
-
-- **Bleeding Edge Technologies and Best Practices**: Stay ahead of the curve with the latest technologies and industry best practices (I hope so).
-
-## Features Not Implemented (yet)
-
-Although packed with awesome features, there are some ideas on the horizon that I'm eager to implement in future updates:
-
-- **Views Counter / Analytics**: Keep track of your blog's popularity and engagement.
-
-- **Cloudinary Support**: Easily manage and optimize your images with Cloudinary integration.
-
-- **Comments**: Foster discussions and interactions by adding comment functionality.
-
-- **Search Blog Posts / Tags**: Help users find specific content with a powerful search feature.
-
-- **Mermaid Support**: Visualize data and concepts with the help of Mermaid charts.
-
-- **Author Support**: Properly attribute authors to each post.
-
-- **Custom Layout**: Create a unique layout for individual posts.
+[schardev/nextjs-contentlayer-blog](https://github.com/schardev/nextjs-contentlayer-blog) - This is the template I used here which met all my requirements. Mobile friendly, SEO friendly, easy to use, modern, readable and customize.
 
 ## Theme
 
