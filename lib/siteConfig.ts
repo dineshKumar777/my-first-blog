@@ -1,9 +1,8 @@
 const siteConfig = {
   title: "Dinesh Blog",
-  description:
-    "A static minimalistic blog template powered by Next.js and Contentlayer.",
+  description: "My Dev blog powered by Nextjs, Tailwind, ContentLayer",
   author: "Dinesh Kumar",
-  url: "https://localhost:3000/",
+  url: "https://my-first-blog-ivory.vercel.app/",
   siteImage: "/images/announcement-banner.png",
   socials: {
     github: "#",
