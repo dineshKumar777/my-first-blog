@@ -5,6 +5,7 @@ import config from "@/lib/siteConfig";
 import { cn } from "@/lib/utils";
 import "@/styles/global.css";
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: {
@@ -64,6 +65,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
