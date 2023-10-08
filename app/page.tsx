@@ -1,21 +1,30 @@
 "use client";
 import { WarningTriangle } from "iconoir-react";
 import Lottie from "lottie-react";
-import animationData from "@/public/animations/computer-window.json";
+import Image from "next/image";
+import { cn } from "@/lib/utils";
+import animationData from "@/public/animations/profile.json";
 
 const Page = () => {
   return (
-    <div className="min-h-screen flex flex-col gap-4 justify-center items-center">
-      <WarningTriangle className="text-yellow-500 text-4xl" />
-      <p className="text-2xl">Under construction!</p>
-      <div className="flex flex-col w-full justify-center items-center">
+    <main>
+      <div className="bg-circles"></div>
+      <div
+        className={cn(
+          "flex justify-center items-center flex-col",
+          "font-headings h-screen text-center space-y-6 lg:space-y-8",
+        )}>
         <Lottie
+          className={cn("w-60 lg:w-60")}
           animationData={animationData}
-          className="flex justify-center items-center"
-          loop={false}
+          loop={true}
         />
+        <p className="max-w-[65ch] text-fluid-1 font-bold lg:text-fluid-2 lg:font-medium">
+          I’m a Software developer with a habbit of getting things done in a
+          clean, minimalist and efficient way.
+        </p>
       </div>
-    </div>
+    </main>
   );
 };
 
